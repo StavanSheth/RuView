@@ -1,0 +1,96 @@
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : STAVAN-DESKSTOP-9FKC93F
+   Primary Dns Suffix  . . . . . . . : 
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter
+   Physical Address. . . . . . . . . : 2E-98-11-3B-0C-CD
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Local Area Connection* 10:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter #2
+   Physical Address. . . . . . . . . : 22-98-11-3B-0C-CD
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Ethernet adapter VMware Network Adapter VMnet1:
+
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : VMware Virtual Ethernet Adapter for VMnet1
+   Physical Address. . . . . . . . . : 00-50-56-C0-00-01
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::7a6a:bdae:1f50:9017%8(Preferred) 
+   IPv4 Address. . . . . . . . . . . : 192.168.235.1(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : 11 April 2026 14:16:01
+   Lease Expires . . . . . . . . . . : 11 April 2026 15:31:21
+   Default Gateway . . . . . . . . . : 
+   DHCP Server . . . . . . . . . . . : 192.168.235.254
+   DHCPv6 IAID . . . . . . . . . . . : 620777558
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-30-70-8A-48-2C-98-11-3B-0C-CD
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Ethernet adapter VMware Network Adapter VMnet8:
+
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : VMware Virtual Ethernet Adapter for VMnet8
+   Physical Address. . . . . . . . . : 00-50-56-C0-00-08
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::253f:a9f1:9043:eb38%7(Preferred) 
+   IPv4 Address. . . . . . . . . . . : 192.168.75.1(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : 11 April 2026 14:16:01
+   Lease Expires . . . . . . . . . . : 11 April 2026 15:31:21
+   Default Gateway . . . . . . . . . : 
+   DHCP Server . . . . . . . . . . . : 192.168.75.254
+   DHCPv6 IAID . . . . . . . . . . . : 637554774
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-30-70-8A-48-2C-98-11-3B-0C-CD
+   Primary WINS Server . . . . . . . : 192.168.75.2
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Realtek 8821CE Wireless LAN 802.11ac PCI-E NIC
+   Physical Address. . . . . . . . . : 2C-98-11-3B-0C-CD
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   IPv6 Address. . . . . . . . . . . : 2401:4900:88b1:c853:d781:bfc1:95c5:488(Preferred) 
+   Temporary IPv6 Address. . . . . . : 2401:4900:88b1:c853:65ec:397e:5bce:edca(Preferred) 
+   Link-local IPv6 Address . . . . . : fe80::4c93:7084:a62:3074%21(Preferred) 
+   IPv4 Address. . . . . . . . . . . : 192.168.1.5(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : 11 April 2026 14:16:12
+   Lease Expires . . . . . . . . . . : 12 April 2026 14:16:12
+   Default Gateway . . . . . . . . . : fe80::1%21
+                                       192.168.1.1
+   DHCP Server . . . . . . . . . . . : 192.168.1.1
+   DHCPv6 IAID . . . . . . . . . . . : 120363025
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-30-70-8A-48-2C-98-11-3B-0C-CD
+   DNS Servers . . . . . . . . . . . : fe80::1%21
+                                       192.168.1.1
+                                       fe80::1%21
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Ethernet adapter Bluetooth Network Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Bluetooth Device (Personal Area Network)
+   Physical Address. . . . . . . . . : 2C-98-11-3B-0C-CE
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes

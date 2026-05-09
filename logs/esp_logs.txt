@@ -1,0 +1,116 @@
+Exception in thread Thread-1 (read_port):
+Traceback (most recent call last):
+  File "C:\Projects\RuView\read_esp_logs.py", line 15, in read_port
+Exception in thread Thread-2 (read_port):
+Traceback (most recent call last):
+  File "C:\Projects\RuView\read_esp_logs.py", line 15, in read_port
+Exception in thread Thread-3 (read_port):
+    s = serial.Serial(port, BAUD, timeout=1)
+Traceback (most recent call last):
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\RuView\read_esp_logs.py", line 15, in read_port
+  File "C:\IM\DevEnv\Python\Python312\Lib\site-packages\serial\serialwin32.py", line 33, in __init__
+    s = serial.Serial(port, BAUD, timeout=1)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IM\DevEnv\Python\Python312\Lib\site-packages\serial\serialwin32.py", line 33, in __init__
+    s = serial.Serial(port, BAUD, timeout=1)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IM\DevEnv\Python\Python312\Lib\site-packages\serial\serialwin32.py", line 33, in __init__
+Exception in thread Thread-4 (read_port):
+Traceback (most recent call last):
+  File "C:\Projects\RuView\read_esp_logs.py", line 17, in read_port
+    print(f"[{port}] \u2705 Opened successfully")
+  File "C:\IM\DevEnv\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    super(Serial, self).__init__(*args, **kwargs)
+    super(Serial, self).__init__(*args, **kwargs)
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\IM\DevEnv\Python\Python312\Lib\site-packages\serial\serialutil.py", line 244, in __init__
+  File "C:\IM\DevEnv\Python\Python312\Lib\site-packages\serial\serialutil.py", line 244, in __init__
+  File "C:\IM\DevEnv\Python\Python312\Lib\site-packages\serial\serialutil.py", line 244, in __init__
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 8: character maps to <undefined>
+System.Management.Automation.RemoteException
+During handling of the above exception, another exception occurred:
+System.Management.Automation.RemoteException
+Traceback (most recent call last):
+  File "C:\IM\DevEnv\Python\Python312\Lib\threading.py", line 1075, in _bootstrap_inner
+    self.open()
+    self.open()
+  File "C:\IM\DevEnv\Python\Python312\Lib\site-packages\serial\serialwin32.py", line 64, in open
+    self.run()
+    self.open()
+  File "C:\IM\DevEnv\Python\Python312\Lib\threading.py", line 1012, in run
+  File "C:\IM\DevEnv\Python\Python312\Lib\site-packages\serial\serialwin32.py", line 64, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+  File "C:\IM\DevEnv\Python\Python312\Lib\site-packages\serial\serialwin32.py", line 64, in open
+serial.serialutil.SerialException: could not open port 'COM7': PermissionError(13, 'Access is denied.', None, 5)
+System.Management.Automation.RemoteException
+    self._target(*self._args, **self._kwargs)
+During handling of the above exception, another exception occurred:
+System.Management.Automation.RemoteException
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+  File "C:\Projects\RuView\read_esp_logs.py", line 29, in read_port
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'COM9': FileNotFoundError(2, 'The system cannot find the file specified.', None, 2)
+serial.serialutil.SerialException: could not open port 'COM5': FileNotFoundError(2, 'The system cannot find the file specified.', None, 2)
+System.Management.Automation.RemoteException
+System.Management.Automation.RemoteException
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+System.Management.Automation.RemoteException
+During handling of the above exception, another exception occurred:
+  File "C:\IM\DevEnv\Python\Python312\Lib\threading.py", line 1075, in _bootstrap_inner
+System.Management.Automation.RemoteException
+Traceback (most recent call last):
+    print(f"[{port}] \u274c Error: {e}")
+Traceback (most recent call last):
+  File "C:\IM\DevEnv\Python\Python312\Lib\threading.py", line 1075, in _bootstrap_inner
+  File "C:\IM\DevEnv\Python\Python312\Lib\threading.py", line 1075, in _bootstrap_inner
+  File "C:\IM\DevEnv\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    self.run()
+  File "C:\IM\DevEnv\Python\Python312\Lib\threading.py", line 1012, in run
+    self.run()
+  File "C:\IM\DevEnv\Python\Python312\Lib\threading.py", line 1012, in run
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u274c' in position 8: character maps to <undefined>
+    self._target(*self._args, **self._kwargs)
+    self.run()
+  File "C:\Projects\RuView\read_esp_logs.py", line 29, in read_port
+  File "C:\IM\DevEnv\Python\Python312\Lib\threading.py", line 1012, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Projects\RuView\read_esp_logs.py", line 29, in read_port
+    print(f"[{port}] \u274c Error: {e}")
+    self._target(*self._args, **self._kwargs)
+  File "C:\IM\DevEnv\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+  File "C:\Projects\RuView\read_esp_logs.py", line 29, in read_port
+    print(f"[{port}] \u274c Error: {e}")
+  File "C:\IM\DevEnv\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    print(f"[{port}] \u274c Error: {e}")
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+  File "C:\IM\DevEnv\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't encode character '\u274c' in position 7: character maps to <undefined>
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u274c' in position 7: character maps to <undefined>
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u274c' in position 7: character maps to <undefined>
+Reading all ESP32 serial ports for 15s... (looking for WiFi connect/CSI/UDP logs)
+
+
+--- SUMMARY ---
+
+[COM5] Key lines (0 total):
+  (no output or port not available)
+
+[COM7] Key lines (0 total):
+  (no output or port not available)
+
+[COM9] Key lines (0 total):
+  (no output or port not available)
+
+[COM10] Key lines (0 total):
+  (no output or port not available)

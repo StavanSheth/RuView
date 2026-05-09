@@ -1,0 +1,13 @@
+﻿[COM7] ERROR: could not open port 'COM7': PermissionError(13, 'Access is denied.', None, 5)
+Reading COM7 and COM10 for 20s...
+
+[COM10] OPENED OK
+[COM10] Done reading.
+
+=== SUMMARY ===
+
+[COM7] Total lines: 0
+[COM7] Key lines:
+
+[COM10] Total lines: 0
+[COM10] Key lines:
